@@ -1,0 +1,56 @@
+/*GERAL*/
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('./../images/bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principal-geral {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 64px;
+}
+
+.texto--azul {
+    color: #325AE8;
+}
+
+
+/*TOPO*/
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.topo__titulo {
+    font-size: 6.0rem;
+}
+
+.topo__brand {
+    max-width: 100%;
+}
+
+
+/*principal*/
+
+.principal-carrinho {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
